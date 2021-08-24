@@ -3,17 +3,21 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MediaCard from './MediaCard';
+
 
 
 ReactDOM.render(
   
     <div>
-      <App name='Waqar' age={40-10} />
+      <App name="Waqar" />
+      <MediaCard title="Our Services" body="We provide Web Development Services " imageURL="https://picsum.photos/200/300"/>
       
     </div>
   
     
  ,
+ 
   document.getElementById('root')
 );
 
