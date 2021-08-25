@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import MediaCard from './MediaCard';
+import Room from './Room';
 
 
 
@@ -12,8 +13,9 @@ ReactDOM.render(
     <div>
       <App name="Waqar" />
       <MediaCard title="Our Services" body="We provide Web Development Services " imageURL="https://picsum.photos/200/300"/>
-      
+      <Room />
     </div>
+    
   
     
  ,
