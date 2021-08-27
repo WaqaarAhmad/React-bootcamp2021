@@ -1,12 +1,13 @@
 
 import './App.css';
+import Dashboard from './Dashboard';
 
 
 
 function App({name,age}) {
   return (
     <div className="App">
-      Hello <strong>{name}</strong>
+      <Dashboard />
       
       
     </div>
